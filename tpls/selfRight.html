@@ -1,0 +1,46 @@
+<div class="topic_right" ng-controller="selfRightCtrl">
+  <div class="totle">
+    <div class="photo">
+      <div class="img">
+        <img src="{{photo_img}}">
+      </div>
+      <div class="ico">
+        <span style="background-image:url('{{sex_img}}')"></span>
+        <span style="background-image:url('{{country_img}}')"></span>
+      </div>
+    </div>
+    <div class="level">
+      <span ng-repeat="level in [1,2]">
+        <span>{{level_lang}}</span>
+        <o class="language_level" style="background-image:url('./src/images/language_level{{level_num}}.png')"></o>
+      </span>
+      <div class="zodiac">
+        <span>{{zodiac}}</span>
+        <span>{{professional}}</span>
+      </div>
+    </div>
+    <ul class="totle_num">
+      <li>
+        <p>{{tip_num}}</p>
+        <div>帖子</div>
+      </li>
+      <li>
+        <p>{{join_man}}</p>
+        <div>参与人数</div>
+      </li>
+      <li>
+        <p>{{care_man}}</p>
+        <div>关注人数</div>
+      </li>
+    </ul>
+  </div>
+  <div class="self_text">
+    <div>
+      <p>自我介绍</p>
+      <div>{{self_info}}</div>
+    </div>
+  </div>
+  <div class="banner">
+    <img src="{{banner}}">
+  </div>
+</div>

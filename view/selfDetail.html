@@ -1,0 +1,19 @@
+<div class="topic_details">
+    <div class="topic_left">
+      <div class="topic_left_nav">
+        <div class="now_add">
+          <a ui-sref="index">首页</a> > TA的主页
+        </div>
+      </div>
+      <div class="topic_left_content">
+        <ul>
+          <li ng-repeat="list in [1,2]" ng-controller="content">
+            <content-title></content-title>
+            <content-video></content-video>
+            <content-info></content-info>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <self-right ng-controller="selfRightCtrl"></self-right>
+   </div>

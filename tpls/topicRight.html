@@ -1,0 +1,28 @@
+<div class="topic_right" ng-controller="topicRightCtrl">
+  <div class="totle">
+    <p>{{title}}</p>
+    <ul class="totle_num">
+      <li>
+        <p>{{tip_num}}</p>
+        <div>帖子</div>
+      </li>
+      <li>
+        <p>{{join_man}}</p>
+        <div>参与人数</div>
+      </li>
+      <li>
+        <p>{{care_man}}</p>
+        <div>关注人数</div>
+      </li>
+    </ul>
+  </div>
+  <div class="hot">
+    <p>热门话题</p>
+    <ul>
+      <li ng-repeat="hot in [1,2,3,4,5,6]"><a ui-sref="topic">{{hot}}</a></li>
+    </ul>
+  </div>
+  <div class="banner">
+    <img src="{{banner}}">
+  </div>
+</div>

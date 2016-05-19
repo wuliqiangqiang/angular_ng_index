@@ -1,0 +1,21 @@
+<div class="list-info">
+	<div class="info-img">
+		<a ui-sref="self({type:'1', role:'2'})"><img src="{{self_bg_img}}"></a>
+		<p style="background-image:url('{{country_img}}')"></p>
+	</div>
+	<div class="info-name">
+		<p class="name" ng-bind="name"></p>
+		<p class="time" ng-bind="time"></p>
+	</div>
+	<div style="clear:both"></div>
+	<div class="info-text">
+		<span><span ng-bind="topic"  class="title"></span><span ng-bind="topic_content"></span></span>
+	</div>
+	<div class="info-num">
+		<i class="iconfont_love">&#xe60a;</i>
+		<span ng-bind="like_num"></span>
+		<i class="iconfont_love">&#xe604;</i>
+		<span ng-bind="fw_num"></span>
+	</div>
+</div>
+<div class="tip-list tip-list-{{fw}}" ng-bind="type"></div>

@@ -1,0 +1,27 @@
+﻿<div class="content_topic" ng-controller="hotTopicCtrl">
+ <ul>
+   <li ng-repeat="x in [1,2,3]">
+     <span class="c_topic_title">
+       #神经大条大比拼
+     </span>
+     <span class="c_topic_num1">234参与</span>
+     <span class="c_topic_num2">234参与</span>
+     <ul class="c_topic_img">
+       <li ng-repeat="x in [1,2,3,4,5]" >
+        <topic-img></topic-img>
+        <div class="topic_ico">
+          <i>&#xe605;</i>
+        </div>
+       </li>
+       <li class="last-li">
+         <a ui-sref="topic">
+          <div class="more">
+            <p>&#xe607;</p>
+              <span>More</span>
+          </div>
+         </a>
+       </li>
+     </ul>
+   </li>
+ </ul>
+</div>

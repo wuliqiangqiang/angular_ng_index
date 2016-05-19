@@ -1,0 +1,7 @@
+<div class="video">
+  <div class="bg-img" style="background-image:url('{{imgUrl}}')" ng-class="{'bottom':isbottom}">
+  </div>
+  <audio class="media" src="{{mediaUrl | trustUrl}}" ng-show="{{audio}}" controls></audio>
+  <video class="media" src="{{mediaUrl | trustUrl}}" controls></video>
+  <div class="play_ico" style="background-image:url('./src/images/play_icon.png')" this-video ng-show="play_ico"></div>
+</div>

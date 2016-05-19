@@ -1,0 +1,74 @@
+@charset "utf-8";
+.container{width:100%;position:relative}
+.container-640{max-width:640px;position:relative;margin:0 auto;height:100%}
+.mt1{margin-top:.5rem}
+.mr1{margin-right:.5rem}
+.mb1{margin-bottom:.5rem}
+.ml1{margin-left:.5rem}
+.mt2{margin-top:1rem}
+.mr2{margin-right:1rem}
+.mb2{margin-bottom:1rem}
+.ml2{margin-left:1rem}
+.mt3{margin-top:1.5rem}
+.mr3{margin-right:1.5rem}
+.mb3{margin-bottom:1.5rem}
+.ml3{margin-left:1.5rem}
+.mt4{margin-top:2rem}
+.mr4{margin-right:2rem}
+.mb4{margin-bottom:2rem}
+.ml4{margin-left:2rem}
+.mt5{margin-top:2.5rem}
+.mr5{margin-right:2.5rem}
+.mb5{margin-bottom:2.5rem}
+.ml5{margin-left:2.5rem}
+.pt1{margin-top:.5rem}
+.pr1{margin-right:.5rem}
+.pb1{margin-bottom:.5rem}
+.pl1{margin-left:.5rem}
+.pt2{margin-top:1rem}
+.pr2{margin-right:1rem}
+.pb2{margin-bottom:1rem}
+.pl2{margin-left:1rem}
+.pt3{margin-top:1.5rem}
+.pr3{margin-right:1.5rem}
+.pb3{margin-bottom:1.5rem}
+.pl3{margin-left:1.5rem}
+.pt4{margin-top:2rem}
+.pr4{margin-right:2rem}
+.pb4{margin-bottom:2rem}
+.pl4{margin-left:2rem}
+.pt5{margin-top:2.5rem}
+.pr5{margin-right:2.5rem}
+.pb5{margin-bottom:2.5rem}
+.pl5{margin-left:2.5rem}
+.mauto{margin:0 auto}
+.fl{float:left}
+.fr{float:right}
+.cl{clear:both}
+.pr{position:relative;top:0;left:0}
+.tpt{filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity:0;opacity:0}
+.cover{position:absolute;top:0;left:0;width:100%;height:100%;cursor:pointer;z-index:998}
+.hide{display:none}
+.box-main{display:-moz-box;display:-webkit-box;display:box}
+.box-orient{box-orient:horizontal}
+.box-vertical{box-orient:vertical}
+.box-pack-align{-moz-box-pack:center;-moz-box-align:center;-webkit-box-pack:center;-webkit-box-align:center}
+
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button {margin:0;padding:0}  /* 初始化标签在所有浏览器中的margin、padding值 */
+fieldset,img {border:0 none}  /* 重置fieldset（表单分组）、图片的边框为0*/
+dl,ul,ol,menu,li {list-style:none}   /* 重置类表前导符号为onne,menu在HTML5中有效 */
+blockquote, q {quotes: none}   /* 重置嵌套引用的引号类型 */
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none}  /* 重置嵌套引用*/
+input,select,textarea,button {vertical-align:middle}  /* 重置表单控件垂直居中*/
+button {border:0 none;background-color:transparent;cursor:pointer}  /* 重置表单button按钮效果 */
+body {background:#fff}   /* 重置body 页面背景为白色 */
+body,th,td,input,select,textarea,button {font-size:12px;line-height:1 ;font-family:"微软雅黑", "黑体","宋体";color:#666} /* 重置页面文字属性 */
+a {color:#666;text-decoration:none}  /* 重置链接a标签 */ 
+a:active, a:hover {text-decoration:none}   /* 重置链接a标签的鼠标滑动效果 */
+address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}  /* 重置样式标签的样式 */
+caption {display:none;}    /* 重置表格标题为隐藏 */
+table {width:100%;border-collapse:collapse;border-spacing:0;table-layout:fixed;}    /* 重置table属性 */
+img{vertical-align: middle;}  
+a {outline: none;}  
+a:active {star:expression(this.onFocus=this.blur());}

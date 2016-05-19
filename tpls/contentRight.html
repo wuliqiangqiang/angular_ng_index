@@ -1,0 +1,21 @@
+<div class="topic_right" ng-controller="contentRightCtrl">
+  <div class="hot">
+    <p>热门话题</p>
+    <ul>
+      <li ng-repeat="hot in [1,2,3,4,5,6]"><a ui-sref="topic">{{title}}</a></li>
+    </ul>
+  </div>
+  <div class="hot_card">
+    <p>热门帖子</p>
+    <ul>
+      <li ng-repeat="card in [1,2,3,4,5,6,7,8,9]">
+        <a ui-sref="contentDetail">
+          <div style="background-image:url('{{content_img}}')"></div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="banner">
+    <img src="{{banner}}">
+  </div>
+</div>

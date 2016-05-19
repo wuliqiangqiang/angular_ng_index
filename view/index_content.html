@@ -1,0 +1,43 @@
+<div class="content_home">
+	<div class="content-list" >
+		<ul>
+			<li>
+				<img src="./src/images/b_banner.png">
+				<div class="app_down" free-down>
+					<i>&#xe60f;</i>免费下载
+				</div>
+				<div class="app_down_alert">
+					<div class="triangle-up">
+				      <img src="./src/images/three.png">
+				    </div>
+					<div class="main">
+						<div class="btn">
+							<div class="code_btn">
+								<a href="#">
+							        <div>
+							          <i>&#xe60d;</i>
+							          <span>安卓下载</span>
+							        </div>
+						        </a>
+						        <a href="#">
+							        <div>
+							          <i>&#xe60e;</i>
+							          <span>苹果下载</span>
+							        </div>
+							    </a>
+						    </div>
+						    <div class="code_text">下载琅琅APP到电脑版</div>
+						</div>
+						<div class="code_img">
+							<img src="./src/images/code.png">
+						</div>
+					</div>
+				</div>
+			</li>
+			<li ng-repeat="x in [1,2,3,4,5,6,7,8]" ng-controller="listImg" list-content>
+				<list-img></list-img>
+				<list-info></list-info>
+			</li>
+		</ul>
+	</div>
+</div>

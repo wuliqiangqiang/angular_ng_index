@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="keywords" content="琅琅,langland,社交,外语学习软件,外教1对1神器,陌陌,穷游网,地陪,出国旅行,翻译,英语口语,英语培训机构,在线口语,口语,雅思托福,练听力,背单词,51talk,VIPABC,ABC360,面包英语,英语流利说,真人外教" />
+    <meta name="description" content="琅琅,一个基于语言,兴趣和服务的全球社交交易平台,不出家门带你领略真实有趣的海外生活和跨国文化"/>
+    <link rel="stylesheet" type="text/css" href="./dist/css/main.css">
+    <script src="./src/script/jquery-1.11.1.min.js"></script>
+    <script src="./src/script/angular.min.js"></script>
+    <script src="./src/script/angular-ui-route.js"></script>
+    <script src="./src/script/app.js"></script>
+    <script src="./src/script/controller.js"></script>
+    <script src="./src/script/directive.js"></script>
+    <script src="./src/script/filter.js"></script>
+    
+</head>
+<body ng-app="myApp">
+   <div ng-include="'./view/header.html'"></div>
+   <div ng-controller="navCtrl">
+    <nav-module></nav-module>
+   </div>
+   <load-data load="loadData(type)">
+    <div ui-view class="content_pb"></div>
+   </load-data>
+   <div ng-include="'./view/footer.html'"></div>
+   <!-- 遮挡层 -->
+  <script>
+  window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+ </script>
+</body>
+</html>
+

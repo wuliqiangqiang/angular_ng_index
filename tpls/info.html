@@ -1,0 +1,42 @@
+<div class="info" ng-controller="contentInfoCtrl">
+  <div class="info_img">
+    <a ui-sref="self">
+      <p>
+        <img src="{{photo_img}}">
+      </p>
+    </a>
+    <em style="background-image:url('{{country_img}}')"></em>
+  </div>
+  <div class="info_name">
+    <p class="name">{{info_name}}</p>
+    <p class="level">
+      <span ng-repeat="level in [1,2]">
+        <span>{{level_lang}}</span>
+        <o class="language_level" style="background-image:url('./src/images/language_level{{level_num}}.png')"></o>
+      </span>
+    </p>
+  </div>
+  <div class="info_title">
+    <span ng-repeat="title in [1,2]">
+      {{title}}
+    </span>
+  </div>
+  <div class="info_text">{{info_text}}</div>
+  <div class="info_time_num">
+    <span>{{info_time}}</span>
+    <span class="num">
+      <i class="iconfont_down">&#xe60a;</i>
+      <span class="zan_num">{{zan_num}}</span>
+      <i class="iconfont_down">&#xe604;</i>
+      <span>{{zf_num}}</span>
+    </span>
+  </div>
+   <div class="bdsharebuttonbox" data-tag="share_1">
+     <a href="#" class="bds_more" data-cmd="more"></a>
+     <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+     <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+     <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+     <a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
+     <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+   </div>
+</div>
